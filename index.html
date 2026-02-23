@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valeria Bravo González | Diseñadora Industrial</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -134,22 +134,21 @@
         </div>
     </section>
 
-    <!-- Portafolio Section -->
-    <section id="portafolio" class="portfolio">
+    <!-- Work Section - Brutalist Masonry -->
+    <section id="portafolio" class="work">
         <div class="container">
-            <div class="section-header center">
+            <div class="section-header">
                 <span class="section-tag">Mis Trabajos</span>
-                <h2 class="section-title">Portafolio</h2>
-                <p class="section-description">Una selección de mis proyectos más recientes y destacados</p>
+                <h2 class="section-title">Work</h2>
+                <p class="section-description">Proyectos seleccionados donde el diseño industrial cobra vida a través de la experimentación y la funcionalidad</p>
             </div>
-            <div class="portfolio-filter">
-                <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="interiorismo">Interiorismo</button>
-                <button class="filter-btn" data-filter="mobiliario">Mobiliario</button>
-                <button class="filter-btn" data-filter="app">Aplicaciones</button>
+            <div class="work-filter-tabs">
+                <button class="work-tab active" data-filter="all">Todo</button>
+                <button class="work-tab" data-filter="interiorismo">Interiores</button>
+                <button class="work-tab" data-filter="mobiliario">Mobiliario</button>
+                <button class="work-tab" data-filter="producto">Producto</button>
             </div>
-            <div class="portfolio-grid" id="portfolioGrid">
-                <!-- Los proyectos se cargarán dinámicamente desde projects.json -->
+            <div class="work-masonry" id="workGrid">
             </div>
         </div>
     </section>
@@ -191,66 +190,70 @@
         </div>
     </div>
 
-    <!-- Servicios Section -->
+    <!-- Servicios Section - Brutalist -->
     <section id="servicios" class="services">
         <div class="container">
             <div class="section-header center">
                 <span class="section-tag">Lo que hago</span>
                 <h2 class="section-title">Servicios</h2>
-                <p class="section-description">Soluciones creativas adaptadas a las necesidades de tu marca</p>
+                <p class="section-description">Soluciones creativas que transforman espacios e ideas en experiencias memorables</p>
             </div>
-            <div class="services-grid">
-                <div class="service-card reveal-up">
-                    <div class="service-icon">
+            <div class="services-brutal-grid">
+                <div class="service-card-brutal service-card-large reveal-up">
+                    <div class="service-number">01</div>
+                    <div class="service-icon-brutal">
                         <i class="fas fa-home"></i>
                     </div>
                     <h3>Diseño de Interiores</h3>
-                    <p>Transformo espacios en lugares funcionales y estéticamente atractivos que reflejan la personalidad y necesidades de cada cliente.</p>
-                    <ul class="service-list">
-                        <li>Interiorismo Residencial</li>
-                        <li>Interiorismo Comercial</li>
-                        <li>Espacios de Trabajo</li>
-                        <li>Consultoría en Color</li>
-                    </ul>
+                    <p>Transformo espacios cotidianos en ambientes extraordinarios donde la función y la belleza conviven en perfecta armonía.</p>
+                    <div class="service-tags">
+                        <span>Residencial</span>
+                        <span>Comercial</span>
+                        <span>Coworking</span>
+                        <span>Retail</span>
+                    </div>
+                    <div class="service-accent"></div>
                 </div>
-                <div class="service-card reveal-up" style="animation-delay: 0.2s;">
-                    <div class="service-icon">
+                
+                <div class="service-card-brutal service-card-medium reveal-up" style="animation-delay: 0.2s;">
+                    <div class="service-number">02</div>
+                    <div class="service-icon-brutal">
                         <i class="fas fa-couch"></i>
                     </div>
-                    <h3>Diseño de Mobiliario</h3>
-                    <p>Creo piezas de mobiliario únicas que combinan funcionalidad, innovación y estética para cada espacio y necesidad.</p>
-                    <ul class="service-list">
-                        <li>Mobiliario a Medida</li>
-                        <li>Mobiliario Multifuncional</li>
-                        <li>Prototipado 3D</li>
-                        <li>Selección de Materiales</li>
-                    </ul>
+                    <h3>Mobiliario a Medida</h3>
+                    <p>Piezas únicas que nacen de tus necesidades específicas y se adaptan perfectamente a tu espacio y estilo de vida.</p>
+                    <div class="service-tags">
+                        <span>Furniture</span>
+                        <span>Custom</span>
+                    </div>
                 </div>
-                <div class="service-card reveal-up" style="animation-delay: 0.4s;">
-                    <div class="service-icon">
+                
+                <div class="service-card-brutal service-card-small reveal-up" style="animation-delay: 0.4s;">
+                    <div class="service-number">03</div>
+                    <div class="service-icon-brutal">
                         <i class="fas fa-cube"></i>
                     </div>
-                    <h3>Diseño de Producto</h3>
-                    <p>Desarrollo productos innovadores que mejoran la experiencia del usuario, desde la conceptualización hasta el prototipo final.</p>
-                    <ul class="service-list">
-                        <li>Conceptualización</li>
-                        <li>Modelado 3D</li>
-                        <li>Prototipado</li>
-                        <li>Investigación de Usuario</li>
-                    </ul>
-                </div>
-                <div class="service-card reveal-up" style="animation-delay: 0.6s;">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                    <h3>Producto Industrial</h3>
+                    <p>Desarrollo objetos innovadores que mejoran la experiencia del usuario.</p>
+                    <div class="service-tags">
+                        <span>3D Modeling</span>
+                        <span>Prototype</span>
                     </div>
-                    <h3>UX/UI Design</h3>
-                    <p>Diseño interfaces digitales intuitivas y atractivas que conectan con los usuarios y mejoran su experiencia de uso.</p>
-                    <ul class="service-list">
-                        <li>Investigación UX</li>
-                        <li>Prototipado Digital</li>
-                        <li>Diseño de Interfaces</li>
-                        <li>Testing de Usabilidad</li>
-                    </ul>
+                </div>
+                
+                <div class="service-card-brutal service-card-wide reveal-up" style="animation-delay: 0.6s;">
+                    <div class="service-number">04</div>
+                    <div class="service-icon-brutal">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Consultoría Creativa</h3>
+                    <p>Te acompaño en el proceso completo: desde la conceptualización inicial hasta los detalles finales que marcan la diferencia.</p>
+                    <div class="service-tags">
+                        <span>Strategy</span>
+                        <span>Branding</span>
+                        <span>Color Theory</span>
+                    </div>
+                    <div class="service-accent service-accent-alt"></div>
                 </div>
             </div>
         </div>
@@ -362,14 +365,14 @@
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-instagram"></i></a> -->
                         <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a> -->
                         <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="contact-form-container reveal-right">
-                    <form class="contact-form" id="contact-form">
+                    <form class="contact-form" id="contact-form" netlify >
                         <div class="form-group">
                             <input type="text" id="name" name="name" required>
                             <label for="name">Nombre</label>

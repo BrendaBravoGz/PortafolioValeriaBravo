@@ -71,7 +71,7 @@ const Cursor = {
             animate();
             
             // Efectos hover
-            const hoverElements = document.querySelectorAll('a, button, .portfolio-card, .service-card');
+            const hoverElements = document.querySelectorAll('a, button, .work-card, .service-card-brutal');
             hoverElements.forEach(el => {
                 el.addEventListener('mouseenter', () => {
                     cursorFollower.classList.add('hover');
@@ -222,7 +222,7 @@ const ScrollEffects = {
 };
 
 /* ==========================================
-   PORTAFOLIO - CARGA DINÁMICA Y MODAL
+   WORK - MASONRY LAYOUT Y MODAL
 ========================================== */
 const Portfolio = {
     projects: [],
@@ -230,8 +230,8 @@ const Portfolio = {
     currentProject: null,
     
     async init() {
-        this.filterBtns = document.querySelectorAll('.filter-btn');
-        this.portfolioGrid = document.getElementById('portfolioGrid');
+        this.filterTabs = document.querySelectorAll('.work-tab');
+        this.workGrid = document.getElementById('workGrid');
         this.modal = document.getElementById('projectModal');
         this.modalClose = document.querySelector('.modal-close');
         
@@ -253,34 +253,51 @@ const Portfolio = {
     },
     
     renderProjects(filter = 'all') {
-        if (!this.portfolioGrid) return;
+        if (!this.workGrid) return;
         
         const filteredProjects = filter === 'all' 
             ? this.projects 
             : this.projects.filter(project => project.category === filter);
         
-        this.portfolioGrid.innerHTML = '';
+        this.workGrid.innerHTML = '';
         
-        filteredProjects.forEach(project => {
+        filteredProjects.forEach((project, index) => {
+            const categoryColors = {
+                'interiorismo': 'var(--mustard)',
+                'mobiliario': 'var(--sky-blue)',
+                'producto': 'var(--burnt-orange)',
+                'app': 'var(--cream-dark)'
+            };
+            
             const projectHTML = `
-                <div class="portfolio-item" data-category="${project.category}">
-                    <div class="portfolio-card" data-project-id="${project.id}">
-                        <div class="portfolio-image">
+                <div class="work-item" data-category="${project.category}">
+                    <div class="work-card" data-project-id="${project.id}">
+                        <div class="work-image">
                             <img src="${project.mainImage}" alt="${project.title}" loading="lazy" />
-                            <div class="portfolio-overlay">
-                                <div class="overlay-content">
-                                    <h4>${project.title}</h4>
-                                    <p>${project.shortDescription}</p>
-                                    <a href="#" class="portfolio-link">
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
-                                </div>
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-expand-btn">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <span class="work-category" style="background: ${categoryColors[project.category] || 'var(--gray-dark)'}">
+                                ${project.category === 'interiorismo' ? 'Interiores' : 
+                                  project.category === 'mobiliario' ? 'Mobiliario' :
+                                  project.category === 'producto' ? 'Producto' : 'App'}
+                            </span>
+                            <h3 class="work-title">${project.title}</h3>
+                            <p class="work-description">${project.shortDescription}</p>
+                            <div class="work-tags">
+                                ${project.details ? Object.entries(project.details).slice(0, 3).map(([key, value]) => 
+                                    `<span class="work-tag">${value}</span>`
+                                ).join('') : ''}
                             </div>
                         </div>
                     </div>
                 </div>
             `;
-            this.portfolioGrid.insertAdjacentHTML('beforeend', projectHTML);
+            this.workGrid.insertAdjacentHTML('beforeend', projectHTML);
         });
         
         // Agregar event listeners a las nuevas cards
@@ -289,7 +306,7 @@ const Portfolio = {
     },
     
     setupCardListeners() {
-        const cards = document.querySelectorAll('.portfolio-card');
+        const cards = document.querySelectorAll('.work-card');
         cards.forEach(card => {
             card.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -300,15 +317,28 @@ const Portfolio = {
     },
     
     setupFilters() {
-        this.filterBtns.forEach(btn => {
+        this.filterTabs.forEach(btn => {
             btn.addEventListener('click', () => {
                 // Remover clase active de todos los botones
-                this.filterBtns.forEach(b => b.classList.remove('active'));
+                this.filterTabs.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 
                 const filter = btn.dataset.filter;
-                this.renderProjects(filter);
+                this.filterProjects(filter);
             });
+        });
+    },
+    
+    filterProjects(filter) {
+        const workItems = document.querySelectorAll('.work-item');
+        
+        workItems.forEach(item => {
+            const category = item.dataset.category;
+            if (filter === 'all' || category === filter) {
+                item.classList.remove('hidden');
+            } else {
+                item.classList.add('hidden');
+            }
         });
     },
     
