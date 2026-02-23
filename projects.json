@@ -1,0 +1,109 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Regina Pan Artesanal",
+      "category": "interiorismo",
+      "shortDescription": "Rediseño de panadería para reflejar la esencia y calidad de la marca, mejorando la experiencia del cliente sin perder autenticidad.",
+      "fullDescription": "Proyecto de rediseño integral de la panadería Regina Pan Artesanal, ubicada en Cumbres. El establecimiento buscaba remodelar su espacio para reflejar de mejor manera su marca y calidad a sus clientes de una manera más eficiente, sin perder su esencia artesanal. Se trabajó en la optimización del layout, selección de materiales cálidos y creación de una atmósfera acogedora que invita a la permanencia.",
+      "images": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "details": {
+        "cliente": "Regina Pan Artesanal",
+        "ubicacion": "Cumbres, México",
+        "area": "120 m²",
+        "año": "2024",
+        "duracion": "3 meses"
+      },
+      "tags": ["Interiorismo", "Comercial", "Branding Espacial", "Reforma"]
+    },
+    {
+      "id": 2,
+      "title": "Oficinas UPS",
+      "category": "interiorismo",
+      "shortDescription": "Optimización de espacios para mayor comodidad y bienestar laboral, creando ambientes funcionales y agradables para los colaboradores.",
+      "fullDescription": "Rediseño integral de las oficinas de UPS con enfoque en el bienestar laboral y la optimización de espacios. Se buscaba crear un ambiente que mejorara la productividad de los trabajadores y contribuyera a su comodidad diaria. El proyecto incluyó la redistribución de áreas de trabajo, creación de espacios colaborativos y zonas de descanso, implementando principios de ergonomía y diseño biofílico.",
+      "images": [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "details": {
+        "cliente": "UPS",
+        "ubicacion": "Ciudad de México",
+        "area": "450 m²",
+        "año": "2024",
+        "duracion": "4 meses"
+      },
+      "tags": ["Oficinas", "Bienestar Laboral", "Espacios Colaborativos", "Ergonomía"]
+    },
+    {
+      "id": 3,
+      "title": "MillerKnoll",
+      "category": "interiorismo",
+      "shortDescription": "Diseño de espacio colaborativo que potencia la creatividad y el bienestar, equilibrando áreas de descanso e innovación para una experiencia integral.",
+      "fullDescription": "El objetivo de este proyecto fue crear un espacio que potencie la colaboración, la creatividad y el bienestar de quienes lo utilizan. Se desarrollaron experiencias complementarias que equilibran el descanso y la innovación, creando un entorno donde las personas pueden trabajar, relajarse y pensar con libertad. El diseño incorpora elementos de flexibilidad espacial y tecnología integrada.",
+      "images": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "details": {
+        "cliente": "MillerKnoll",
+        "ubicacion": "Guadalajara, México",
+        "area": "300 m²",
+        "año": "2024",
+        "duracion": "5 meses"
+      },
+      "tags": ["Colaborativo", "Innovación", "Flex Space", "Corporativo"]
+    },
+    {
+      "id": 4,
+      "title": "NutriHeroes",
+      "category": "app",
+      "shortDescription": "App móvil para motivar y educar sobre alimentación saludable en infancias mexicanas, combinando juego y aprendizaje para crear hábitos positivos.",
+      "fullDescription": "Diseño de una aplicación para dispositivos móviles que motiva, enseña y genera cambios positivos en la alimentación de las infancias mexicanas. La premisa es que aprender mientras se juega y se divierten ayuda a crear conexiones positivas y relaciones asertivas entre los alimentos y los niños. El proyecto incluyó investigación de usuario, prototipado y diseño de interfaz gamificada.",
+      "images": [
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "details": {
+        "cliente": "Proyecto Académico",
+        "plataforma": "iOS / Android",
+        "usuarios": "Niños 6-12 años",
+        "año": "2024",
+        "duracion": "4 meses"
+      },
+      "tags": ["UX/UI", "Gamificación", "Educativo", "Mobile App"]
+    },
+    {
+      "id": 5,
+      "title": "Mesa de Centro Pilates",
+      "category": "mobiliario",
+      "shortDescription": "Mesa de centro innovadora que se transforma en equipo de pilates, ideal para espacios reducidos y estilos de vida prácticos.",
+      "fullDescription": "Diseño de una mesa de centro innovadora que se transforma en un completo equipo de pilates. Está dirigida a personas que viven en espacios donde el área es limitada y cualquier equipo voluminoso de ejercicio podría ser impráctico. La pieza combina funcionalidad doméstica con equipamiento deportivo, utilizando mecanismos de transformación inteligente y materiales de alta calidad.",
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ],
+      "mainImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "details": {
+        "cliente": "Proyecto Personal",
+        "materiales": "Madera, Metal, Textil",
+        "dimensiones": "120x60x45 cm",
+        "año": "2024",
+        "duracion": "6 meses"
+      },
+      "tags": ["Mobiliario", "Multifuncional", "Innovación", "Diseño de Producto"]
+    }
+  ]
+}
