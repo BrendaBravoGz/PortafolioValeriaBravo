@@ -5,7 +5,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // Inicializar todos los módulos
-    Loader.init();
     Cursor.init();
     Navigation.init();
     ScrollEffects.init();
@@ -15,21 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Skills.init();
 });
 
-/* ==========================================
-   LOADER
-========================================== */
-const Loader = {
-    init() {
-        const loader = document.querySelector('.loader');
-        
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                loader.classList.add('hidden');
-                document.body.style.overflow = 'auto';
-            }, 2500);
-        });
-    }
-};
+
 
 /* ==========================================
    CURSOR PERSONALIZADO
@@ -303,6 +288,25 @@ const Portfolio = {
         // Agregar event listeners a las nuevas cards
         this.setupCardListeners();
         this.setupHoverEffects();
+        
+        // Animación de entrada para las cards
+        this.animateCardsIn();
+    },
+    
+    animateCardsIn() {
+        const workItems = document.querySelectorAll('.work-item');
+        workItems.forEach((item, index) => {
+            // Inicialmente ocultas
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(30px)';
+            
+            // Animar con retraso escalonado
+            setTimeout(() => {
+                item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                item.style.opacity = '1';
+                item.style.transform = 'translateY(0)';
+            }, index * 100); // 100ms de retraso entre cada card
+        });
     },
     
     setupCardListeners() {
@@ -330,16 +334,24 @@ const Portfolio = {
     },
     
     filterProjects(filter) {
+        // Animación de salida suave antes de cambiar el contenido
         const workItems = document.querySelectorAll('.work-item');
         
-        workItems.forEach(item => {
-            const category = item.dataset.category;
-            if (filter === 'all' || category === filter) {
-                item.classList.remove('hidden');
-            } else {
-                item.classList.add('hidden');
-            }
-        });
+        if (workItems.length > 0) {
+            workItems.forEach(item => {
+                item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(-20px)';
+            });
+            
+            // Esperar a que termine la animación de salida
+            setTimeout(() => {
+                this.renderProjects(filter);
+            }, 300);
+        } else {
+            // Si no hay cards, renderizar directamente
+            this.renderProjects(filter);
+        }
     },
     
     setupModal() {

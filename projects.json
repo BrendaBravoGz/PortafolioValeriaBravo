@@ -7,11 +7,11 @@
       "shortDescription": "Rediseño de panadería para reflejar la esencia y calidad de la marca, mejorando la experiencia del cliente sin perder autenticidad.",
       "fullDescription": "Proyecto de rediseño integral de la panadería Regina Pan Artesanal, ubicada en Cumbres. El establecimiento buscaba remodelar su espacio para reflejar de mejor manera su marca y calidad a sus clientes de una manera más eficiente, sin perder su esencia artesanal. Se trabajó en la optimización del layout, selección de materiales cálidos y creación de una atmósfera acogedora que invita a la permanencia.",
       "images": [
-        "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "assets/images/espejo/image-1.png",
+        "assets/images/espejo/image-2.png",
+        "assets/images/espejo/image-3.png"
       ],
-      "mainImage": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "mainImage": "assets/images/espejo/image-1.png",
       "details": {
         "cliente": "Regina Pan Artesanal",
         "ubicacion": "Cumbres, México",
@@ -28,11 +28,11 @@
       "shortDescription": "Optimización de espacios para mayor comodidad y bienestar laboral, creando ambientes funcionales y agradables para los colaboradores.",
       "fullDescription": "Rediseño integral de las oficinas de UPS con enfoque en el bienestar laboral y la optimización de espacios. Se buscaba crear un ambiente que mejorara la productividad de los trabajadores y contribuyera a su comodidad diaria. El proyecto incluyó la redistribución de áreas de trabajo, creación de espacios colaborativos y zonas de descanso, implementando principios de ergonomía y diseño biofílico.",
       "images": [
-        "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "assets/images/2-ups/image-1.png",
+        "assets/images/2-ups/image-2.png",
+        "assets/images/2-ups/image-3.png"
       ],
-      "mainImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "mainImage": "assets/images/2-ups/image-1.png",
       "details": {
         "cliente": "UPS",
         "ubicacion": "Ciudad de México",
@@ -44,24 +44,24 @@
     },
     {
       "id": 3,
-      "title": "MillerKnoll",
+      "title": "Vitalia",
       "category": "interiorismo",
-      "shortDescription": "Diseño de espacio colaborativo que potencia la creatividad y el bienestar, equilibrando áreas de descanso e innovación para una experiencia integral.",
-      "fullDescription": "El objetivo de este proyecto fue crear un espacio que potencie la colaboración, la creatividad y el bienestar de quienes lo utilizan. Se desarrollaron experiencias complementarias que equilibran el descanso y la innovación, creando un entorno donde las personas pueden trabajar, relajarse y pensar con libertad. El diseño incorpora elementos de flexibilidad espacial y tecnología integrada.",
+      "shortDescription": "Desarrollo de identidad de marca para un concepto gastronómico que fusiona la energía y la vitalidad a través de un diseño fresco y contemporáneo.",
+      "fullDescription": "Vitalia es un proyecto de branding integral nacido del concepto de 'vida' en latín. La identidad visual busca reflejar frescura y bienestar, aplicándose en diversos puntos de contacto como el logotipo, redes sociales y el diseño de menú. El sistema visual utiliza una paleta de colores y tipografías que transmiten una esencia casual pero sofisticada, diseñada para conectar con un público que valora la calidad y la experiencia sensorial en la alimentación.",
       "images": [
-        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "assets/images/vitalia/image-2.png",
+        "assets/images/vitalia/image-3.png",
+        "assets/images/vitalia/image-4.png"
       ],
-      "mainImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "mainImage": "assets/images/vitalia/image-1.png",
       "details": {
-        "cliente": "MillerKnoll",
-        "ubicacion": "Guadalajara, México",
-        "area": "300 m²",
-        "año": "2024",
-        "duracion": "5 meses"
+        "cliente": "Vitalia (Est. 1998)",
+        "ubicacion": "UANL / FARQ",
+        "concepto": "Vitalidad y Energía",
+        "aplicaciones": "Logotipo, Menú, Estrategia de Instagram",
+        "entrantes_destacados": "Ceviche de camarón, Bruschettas, Tostadas de atún"
       },
-      "tags": ["Colaborativo", "Innovación", "Flex Space", "Corporativo"]
+      "tags": ["Branding", "Identidad Visual", "Diseño de Menú", "Gastronomía", "Redes Sociales"]
     },
     {
       "id": 4,
@@ -70,11 +70,11 @@
       "shortDescription": "App móvil para motivar y educar sobre alimentación saludable en infancias mexicanas, combinando juego y aprendizaje para crear hábitos positivos.",
       "fullDescription": "Diseño de una aplicación para dispositivos móviles que motiva, enseña y genera cambios positivos en la alimentación de las infancias mexicanas. La premisa es que aprender mientras se juega y se divierten ayuda a crear conexiones positivas y relaciones asertivas entre los alimentos y los niños. El proyecto incluyó investigación de usuario, prototipado y diseño de interfaz gamificada.",
       "images": [
-        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "assets/images/vitalia/image-2.png",
+        "assets/images/vitalia/image-3.png",
+        "assets/images/vitalia/image-4.png"
       ],
-      "mainImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "mainImage": "assets/images/vitalia/image-2.png",
       "details": {
         "cliente": "Proyecto Académico",
         "plataforma": "iOS / Android",
@@ -86,24 +86,68 @@
     },
     {
       "id": 5,
-      "title": "Mesa de Centro Pilates",
-      "category": "mobiliario",
-      "shortDescription": "Mesa de centro innovadora que se transforma en equipo de pilates, ideal para espacios reducidos y estilos de vida prácticos.",
-      "fullDescription": "Diseño de una mesa de centro innovadora que se transforma en un completo equipo de pilates. Está dirigida a personas que viven en espacios donde el área es limitada y cualquier equipo voluminoso de ejercicio podría ser impráctico. La pieza combina funcionalidad doméstica con equipamiento deportivo, utilizando mecanismos de transformación inteligente y materiales de alta calidad.",
+      "title": "Table",
+      "category": "producto",
+      "shortDescription": "Reformer de pilates plegable diseñado para optimizar espacios reducidos, combinando funcionalidad profesional con un diseño compacto y estético.",
+      "fullDescription": "Table es una solución innovadora para practicantes de pilates que disponen de poco espacio en casa. Este reformer plegable permite realizar una rutina completa de ejercicios con la misma estabilidad que un equipo profesional, pero con la facilidad de guardarse en espacios estrechos como armarios o bajo la cama. El diseño se centra en la durabilidad y la fluidez del movimiento, utilizando materiales de alta resistencia y un sistema de plegado intuitivo.",
       "images": [
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "assets/images/5-pilates/image-1.png",
+        "assets/images/5-pilates/image-2.png",
+        "assets/images/5-pilates/image-3.png"
       ],
-      "mainImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "mainImage": "assets/images/5-pilates/image-1.png",
       "details": {
-        "cliente": "Proyecto Personal",
-        "materiales": "Madera, Metal, Textil",
-        "dimensiones": "120x60x45 cm",
-        "año": "2024",
-        "duracion": "6 meses"
+        "cliente": "Usuarios de Pilates en casa",
+        "ubicacion": "Monterrey, México (UANL / FARQ)",
+        "materiales": "Estructura de aluminio reforzado, madera de arce y tapicería antimicrobiana",
+        "dimensiones": "230 cm x 65 cm x 40 cm",
+        "dimensiones_plegado": "115 cm x 65 cm x 25 cm"
       },
-      "tags": ["Mobiliario", "Multifuncional", "Innovación", "Diseño de Producto"]
+      "tags": ["Equipo Deportivo", "Wellness", "Diseño Plegable", "Pilates", "Ergonomía"]
+    },
+    {
+      "id": 6,
+      "title": "Thelios",
+      "category": "mobiliario",
+      "shortDescription": "Lámpara para home office diseñada bajo el estilo Natural House para mejorar la productividad y el bienestar en el espacio de trabajo.",
+      "fullDescription": "Theliner surge como respuesta a la creciente tendencia del trabajo en casa y los problemas de salud derivados de una mala iluminación. Este diseño busca crear un ambiente de trabajo cómodo, seguro y productivo, armonizando el espacio con la naturaleza. Basada en el estilo Natural House, utiliza materiales con un aspecto puro y colores tierra para ajustarse a la estética y necesidades del usuario.",
+      "images": [
+        "assets/images/TecnoLite/image-1.jpg",
+        "assets/images/TecnoLite/image-2.jpg",
+        "assets/images/TecnoLite/image-3.jpg"
+      ],
+      "mainImage": "assets/images/TecnoLite/image-1.jpg",
+      "details": {
+        "cliente": "Pareja de recién casados",
+        "ubicacion": "Monterrey, México (UANL / FARQ)",
+        "dimensiones": "179 cm x 43 cm x 54 cm",
+        "materiales": "Acero al carbón cal. 16 y acrílico",
+        "componentes": "LED con interruptor táctil Schneider/Ticino"
+      },
+      "tags": ["Diseño Industrial", "Home Office", "Mobiliario", "Natural House", "Iluminación"]
+    },
+    {
+      "id": 7,
+      "title": "Mind Space",
+      "category": "mobiliario",
+      "shortDescription": "Áreas de colaboración con ambientes sensoriales diseñadas para fomentar la creatividad, el bienestar y la productividad en entornos laborales modernos.",
+      "fullDescription": "Mind Space es un sistema de mobiliario y diseño de espacios que busca transformar las oficinas tradicionales en entornos estimulantes. Basado en investigaciones que indican que la estimulación multisensorial puede incrementar la creatividad hasta en un 25%, el proyecto integra zonas de descanso y exploración creativa[cite: 101, 102]. La propuesta combina ergonomía, tecnología y estímulos sensoriales como plantas, sonidos ambientales y texturas naturales para reducir el estrés y ofrecer un refugio inspirador en la jornada diaria.",
+      "images": [
+        "assets/images/7-mindSpace/image-1.png",
+        "assets/images/7-mindSpace/image-2.png",
+        "assets/images/7-mindSpace/image-3.png",
+        "assets/images/7-mindSpace/image-4.png",
+        "assets/images/7-mindSpace/image-5.png"
+      ],
+      "mainImage": "assets/images/7-mindSpace/image-1.png",
+      "details": {
+        "cliente": "Empresas de innovación (Tecnología/Marketing)",
+        "ubicacion": "UANL / FARQ",
+        "materiales": "MDF con chapa de madera natural, aluminio/acero inoxidable y textiles reciclados",
+        "conceptos": "Diseño Multisensorial, Biofilia y Bienestar Laboral",
+        "componentes": "Módulos Lunaris, Modulux y Creativa"
+      },
+      "tags": ["Espacios Colaborativos", "Mobiliario de Oficina", "Diseño Sensorial", "Bienestar", "Innovación"]
     }
   ]
 }
