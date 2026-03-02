@@ -812,26 +812,29 @@ section {
 
 /* Skills - Brutalist */
 .skills {
-    margin: var(--brutal-spacing-lg) 0 var(--brutal-spacing);
+    margin: var(--brutal-spacing) 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 30px;
 }
 
 .skill-item {
-    margin-bottom: 25px;
+    margin-bottom: 0;
 }
 
 .skill-name {
     display: block;
     font-family: var(--font-body);
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 0.9rem;
+    font-weight: 600;
     color: var(--dark);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .skill-bar {
-    height: 12px;
+    height: 10px;
     background: var(--cream-dark);
     border-radius: var(--radius-brutal);
     overflow: hidden;
@@ -2037,6 +2040,11 @@ section {
     .about-image {
         max-width: 400px;
         margin: 0 auto;
+    }
+    
+    .skills {
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
     
     .services-brutal-grid {
