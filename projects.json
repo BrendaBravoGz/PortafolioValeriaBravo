@@ -1,153 +1,178 @@
 {
   "projects": [
     {
-      "id": 1,
-      "title": "Regina Pan Artesanal",
-      "category": "interiorismo",
-      "shortDescription": "Rediseño de panadería para reflejar la esencia y calidad de la marca, mejorando la experiencia del cliente sin perder autenticidad.",
-      "fullDescription": "Proyecto de rediseño integral de la panadería Regina Pan Artesanal, ubicada en Cumbres. El establecimiento buscaba remodelar su espacio para reflejar de mejor manera su marca y calidad a sus clientes de una manera más eficiente, sin perder su esencia artesanal. Se trabajó en la optimización del layout, selección de materiales cálidos y creación de una atmósfera acogedora que invita a la permanencia.",
+      "id":1,
+      "title": "Lámpara de Pie para Home Office",
+      "category": "mobiliario",
+      "shortDescription": "Diseño de luminaria de pie enfocada en ergonomía, eficiencia energética y adaptabilidad para espacios de trabajo en casa.",
+      "fullDescription": "Proyecto de diseño de mobiliario desarrollado para la empresa TecnoLite enfocado en la creación de una lámpara de pie funcional para espacios de home office. Participé en todo el proceso de diseño, desde la investigación de usuario, análisis de mercado, encuestas y diagnóstico de necesidades, hasta el desarrollo conceptual, bocetaje, renders, planos técnicos y memoria de fabricación. El diseño integra criterios ergonómicos, iluminación regulable, eficiencia energética y estabilidad estructural, utilizando materiales como acero al carbono y acrílico para garantizar durabilidad y calidad lumínica. Como parte del proyecto se construyó un prototipo físico a escala real totalmente funcional, validando el diseño y comprobando su viabilidad productiva y de uso.",
+      "images": [
+        "assets/images/TecnoLite/image-1.jpg",
+        "assets/images/TecnoLite/image-2.jpg",
+        "assets/images/TecnoLite/image-3.jpg" 
+      ],
+      "mainImage": "assets/images/TecnoLite/image-1.jpg",
+      "details": {
+        "cliente": "TecnoLite",
+        "ubicacion": "Nuevo León, México",
+        "area": "Diseño de mobiliario",
+        "año": "2024",
+        "duracion": "8 meses"
+      },
+      "tags": ["Mobiliario", "Iluminación", "Diseño Industrial", "Prototipo Funcional", "Investigación", "Producto"]
+    },
+    {
+      "id":2,
+      "title": "Mind Space — Sistema de Mobiliario Corporativo",
+      "category": "mobiliario", 
+      "shortDescription": "Diseño de mobiliario corporativo enfocado en ergonomía, bienestar laboral y estimulación creativa para entornos de trabajo contemporáneos.",
+      "fullDescription": "Proyecto de diseño de producto desarrollado para la empresa MillerKnoll durante un semestre académico con retroalimentación constante por parte de la marca y formación complementaria en ergonomía. Participé en todas las fases del proceso de diseño, incluyendo investigación de usuario, análisis antropométrico y ergonómico, desarrollo conceptual, modelado, renders, planos técnicos y propuesta final. El objetivo fue crear un sistema de mobiliario que favoreciera el bienestar físico y mental en espacios laborales, integrando funcionalidad, confort y estética contemporánea. Como parte del desarrollo se fabricaron modelos físicos a escala mediante impresión 3D de cada pieza diseñada, permitiendo validar proporciones, estructura y viabilidad del producto.",
+      "images": [
+        "assets/images/3-OficinaMillerKnoll/image-1.png",
+        "assets/images/3-OficinaMillerKnoll/image-2.png",
+        "assets/images/3-OficinaMillerKnoll/image-3.png",
+        "assets/images/3-OficinaMillerKnoll/image-4.png",
+        "assets/images/3-OficinaMillerKnoll/image-5.png"
+
+      ],
+      "mainImage": "assets/images/3-OficinaMillerKnoll/image-1.png", 
+      "details": {
+        "cliente": "MillerKnoll",
+        "ubicacion": "Proyecto académico universitario",
+        "area": "Diseño de mobiliario",
+        "año": "2024",
+        "duracion": "6 meses"
+      },
+      "tags": ["Diseño de Producto", "Mobiliario", "Ergonomía", "Prototipado 3D", "Investigación", "Diseño Industrial"]
+    },
+    {
+      "id":3,
+      "title": "Espejo Inteligente para Análisis Facial",
+      "category": "producto",
+      "shortDescription": "Diseño de espejo inteligente con análisis facial y recomendaciones personalizadas para el cuidado de la piel desde casa, integrando tecnología, ergonomía y experiencia de usuario.",
+      "fullDescription": "Proyecto de diseño industrial desarrollado como tesis profesional enfocado en la creación de un espejo inteligente para el análisis del estado de la piel. El proyecto fue realizado durante un año, abarcando investigación teórica, entrevistas a usuarios, análisis antropométrico, ergonómico, tecnológico y de mercado, así como el desarrollo conceptual, bocetaje, modelado, renders y planos técnicos. El objetivo fue diseñar un dispositivo accesible que permita monitorear la piel desde casa y brindar recomendaciones personalizadas mediante visión por computadora e inteligencia artificial, priorizando la experiencia emocional del usuario, la usabilidad y la integración estética en el entorno doméstico. El resultado es un producto funcional, intuitivo y visualmente atractivo que combina diseño centrado en el usuario, innovación tecnológica y criterios de sustentabilidad.",
       "images": [
         "assets/images/espejo/image-1.png",
         "assets/images/espejo/image-2.png",
         "assets/images/espejo/image-3.png"
       ],
-      "mainImage": "assets/images/espejo/image-1.png",
+      "mainImage": "assets/images/espejo/image-1.png", 
       "details": {
-        "cliente": "Regina Pan Artesanal",
-        "ubicacion": "Cumbres, México",
-        "area": "120 m²",
-        "año": "2024",
-        "duracion": "3 meses"
+        "cliente": "Proyecto académico de tesis",
+        "ubicacion": "Universidad Autónoma de Nuevo León",
+        "area": "Diseño de producto",
+        "año": "2025",
+        "duracion": "12 meses"
       },
-      "tags": ["Interiorismo", "Comercial", "Branding Espacial", "Reforma"]
+      "tags": ["Diseño Industrial", "Producto", "UX", "Tecnología", "Investigación", "Proyecto de Tesis"]
     },
     {
-      "id": 2,
-      "title": "Oficinas UPS",
+      "id":4,
+      "title": "Rediseño de Oficinas Corporativas UPS",
       "category": "interiorismo",
-      "shortDescription": "Optimización de espacios para mayor comodidad y bienestar laboral, creando ambientes funcionales y agradables para los colaboradores.",
-      "fullDescription": "Rediseño integral de las oficinas de UPS con enfoque en el bienestar laboral y la optimización de espacios. Se buscaba crear un ambiente que mejorara la productividad de los trabajadores y contribuyera a su comodidad diaria. El proyecto incluyó la redistribución de áreas de trabajo, creación de espacios colaborativos y zonas de descanso, implementando principios de ergonomía y diseño biofílico.",
+      "shortDescription": "Propuesta de interiorismo corporativo enfocada en optimizar la eficiencia operativa, mejorar la experiencia laboral y reforzar la identidad visual de la marca.",
+      "fullDescription": "Proyecto de interiorismo corporativo desarrollado para las oficinas de UPS ubicadas en Miguel Alemán Valdez 512, Apodaca, Nuevo León. Participé en todas las fases del proceso de diseño, incluyendo análisis del espacio existente, investigación del usuario, estudio de necesidades, desarrollo conceptual, moodboard, distribución espacial, selección de materiales, iluminación, mobiliario y elaboración de planos y renders finales. La propuesta se centró en optimizar la organización de los departamentos, mejorar la ergonomía laboral y fortalecer la eficiencia operativa mediante una distribución estratégica del espacio. Se trabajó con una paleta cromática alineada a la identidad de marca y materiales como madera, aluminio y superficies acústicas para generar un ambiente profesional, cómodo y visualmente equilibrado. El resultado es un espacio funcional, moderno y organizado que mejora tanto la productividad del personal como la experiencia del cliente.",
       "images": [
         "assets/images/2-ups/image-1.png",
         "assets/images/2-ups/image-2.png",
         "assets/images/2-ups/image-3.png"
       ],
-      "mainImage": "assets/images/2-ups/image-1.png",
+      "mainImage": "assets/images/2-ups/image-1.png",     
       "details": {
         "cliente": "UPS",
-        "ubicacion": "Ciudad de México",
-        "area": "450 m²",
+        "ubicacion": "Apodaca, Nuevo León, México",
+        "area": "Interiorismo corporativo",
         "año": "2024",
-        "duracion": "4 meses"
+        "duracion": "6 meses"
       },
-      "tags": ["Oficinas", "Bienestar Laboral", "Espacios Colaborativos", "Ergonomía"]
+      "tags": ["Interiorismo", "Corporativo", "Oficinas", "Diseño Espacial", "Ergonomía", "Layout", "Branding Espacial"]
     },
     {
-      "id": 3,
-      "title": "Vitalia",
+      "id":5,
+      "title": "Diseño de Restaurante Conceptual Vitalia inspirado en American Eagle",
       "category": "interiorismo",
-      "shortDescription": "Desarrollo de identidad de marca para un concepto gastronómico que fusiona la energía y la vitalidad a través de un diseño fresco y contemporáneo.",
-      "fullDescription": "Vitalia es un proyecto de branding integral nacido del concepto de 'vida' en latín. La identidad visual busca reflejar frescura y bienestar, aplicándose en diversos puntos de contacto como el logotipo, redes sociales y el diseño de menú. El sistema visual utiliza una paleta de colores y tipografías que transmiten una esencia casual pero sofisticada, diseñada para conectar con un público que valora la calidad y la experiencia sensorial en la alimentación.",
+      "shortDescription": "Proyecto académico de diseño de restaurante conceptual basado en la identidad de marca American Eagle, enfocado en traducir valores de libertad, frescura y autenticidad en una experiencia espacial integral.",
+      "fullDescription": "Proyecto académico de diseño conceptual desarrollado a partir del análisis de la identidad de marca American Eagle Outfitters. El objetivo fue trasladar los valores de libertad, juventud, frescura y autenticidad de la marca al diseño integral de un restaurante temático llamado 'Vitalia'. Participé en todas las fases del proceso de diseño: investigación y análisis de marca, definición de concepto rector, desarrollo de moodboard sensorial (asociaciones con bebida, comida, paisaje, música, materiales y sensaciones), creación de branding del restaurante, propuesta de ambientación, selección de materiales, definición de paleta cromática y desarrollo de renders finales. El concepto se fundamentó en la experiencia del verano como símbolo de libertad y vitalidad, integrando elementos como madera clara para transmitir calidez y autenticidad, referencias naturales que evocan frescura y tranquilidad, y una atmósfera relajada alineada al público objetivo juvenil de la marca (15-25 años). Desde el enfoque de diseño industrial, el proyecto priorizó la coherencia entre identidad visual y espacio físico, la construcción de una narrativa conceptual sólida y la creación de una experiencia multisensorial que conectara emocionalmente con el usuario. El resultado es una propuesta de interiorismo comercial que integra branding, experiencia de usuario y diseño espacial en un concepto unificado.",
       "images": [
+        "assets/images/vitalia/image-1.png",
         "assets/images/vitalia/image-2.png",
         "assets/images/vitalia/image-3.png",
         "assets/images/vitalia/image-4.png"
+
       ],
-      "mainImage": "assets/images/vitalia/image-1.png",
+      "mainImage": "assets/images/vitalia/image-1.png",   
       "details": {
-        "cliente": "Vitalia (Est. 1998)",
-        "ubicacion": "UANL / FARQ",
-        "concepto": "Vitalidad y Energía",
-        "aplicaciones": "Logotipo, Menú, Estrategia de Instagram",
-        "entrantes_destacados": "Ceviche de camarón, Bruschettas, Tostadas de atún"
-      },
-      "tags": ["Branding", "Identidad Visual", "Diseño de Menú", "Gastronomía", "Redes Sociales"]
-    },
-    {
-      "id": 4,
-      "title": "NutriHeroes",
-      "category": "producto",
-      "shortDescription": "App móvil para motivar y educar sobre alimentación saludable en infancias mexicanas, combinando juego y aprendizaje para crear hábitos positivos.",
-      "fullDescription": "Diseño de una aplicación para dispositivos móviles que motiva, enseña y genera cambios positivos en la alimentación de las infancias mexicanas. La premisa es que aprender mientras se juega y se divierten ayuda a crear conexiones positivas y relaciones asertivas entre los alimentos y los niños. El proyecto incluyó investigación de usuario, prototipado y diseño de interfaz gamificada.",
-      "images": [
-        "assets/images/vitalia/image-2.png",
-        "assets/images/vitalia/image-3.png",
-        "assets/images/vitalia/image-4.png"
-      ],
-      "mainImage": "assets/images/vitalia/image-2.png",
-      "details": {
-        "cliente": "Proyecto Académico",
-        "plataforma": "iOS / Android",
-        "usuarios": "Niños 6-12 años",
+        "cliente": "Proyecto académico",
+        "ubicacion": "San Nicolás de los Garza, Nuevo León, México",
+        "area": "Diseño conceptual e interiorismo comercial",
         "año": "2024",
-        "duracion": "4 meses"
+        "duracion": "Semestral"
       },
-      "tags": ["UX/UI", "Gamificación", "Educativo", "Mobile App"]
+      "tags": ["Interiorismo Comercial", "Diseño Conceptual", "Branding Espacial", "Experiencia de Usuario", "Moodboard", "Diseño Estratégico", "Visualización 3D"]
     },
     {
-      "id": 5,
-      "title": "Table",
+      "id":6,
+      "title": "Mesa Transformable para Pilates en el Hogar",
       "category": "producto",
-      "shortDescription": "Reformer de pilates plegable diseñado para optimizar espacios reducidos, combinando funcionalidad profesional con un diseño compacto y estético.",
-      "fullDescription": "Table es una solución innovadora para practicantes de pilates que disponen de poco espacio en casa. Este reformer plegable permite realizar una rutina completa de ejercicios con la misma estabilidad que un equipo profesional, pero con la facilidad de guardarse en espacios estrechos como armarios o bajo la cama. El diseño se centra en la durabilidad y la fluidez del movimiento, utilizando materiales de alta resistencia y un sistema de plegado intuitivo.",
+      "shortDescription": "Diseño de mobiliario multifuncional que integra una máquina de pilates plegable dentro de una mesa de centro, optimizando espacio y promoviendo el bienestar en el hogar.",
+      "fullDescription": "Proyecto académico de diseño de producto enfocado en la optimización del espacio doméstico y la integración del ejercicio en la vida cotidiana. La propuesta consiste en una mesa de centro que se transforma en un equipo completo de pilates, permitiendo al usuario ejercitarse sin sacrificar estética ni funcionalidad en su hogar. Participé en todas las etapas del proceso de diseño: investigación de usuario y contexto, análisis de problemática, conceptualización, desarrollo formal, propuesta de mecanismos plegables, selección de materiales, modelado 3D y visualización final del producto. El diseño responde a una necesidad actual: viviendas con espacios reducidos y una creciente demanda por soluciones de bienestar en casa. El sistema plegable permite ocultar completamente el mecanismo cuando no está en uso, manteniendo la estética limpia del mobiliario. Como valor agregado, se integra una aplicación móvil complementaria que guía al usuario en rutinas de pilates, seguimiento de progreso y motivación mediante rachas de ejercicio, ampliando la experiencia del producto hacia un ecosistema físico-digital. Desde el enfoque del diseño industrial, el proyecto combina ergonomía, ingeniería básica de mecanismos, selección estratégica de materiales y experiencia de usuario, generando una solución funcional, estética y adaptable al contexto contemporáneo.",
       "images": [
         "assets/images/5-pilates/image-1.png",
         "assets/images/5-pilates/image-2.png",
         "assets/images/5-pilates/image-3.png"
+
       ],
-      "mainImage": "assets/images/5-pilates/image-1.png",
+      "mainImage": "assets/images/5-pilates/image-1.png",     
       "details": {
-        "cliente": "Usuarios de Pilates en casa",
-        "ubicacion": "Monterrey, México (UANL / FARQ)",
-        "materiales": "Estructura de aluminio reforzado, madera de arce y tapicería antimicrobiana",
-        "dimensiones": "230 cm x 65 cm x 40 cm",
-        "dimensiones_plegado": "115 cm x 65 cm x 25 cm"
+        "cliente": "Proyecto académico",
+        "ubicacion": "Nuevo León, México",
+        "area": "Diseño de producto / Mobiliario multifuncional",
+        "año": "2024",
+        "duracion": "48 horas"
       },
-      "tags": ["Equipo Deportivo", "Wellness", "Diseño Plegable", "Pilates", "Ergonomía"]
+      "tags": [
+        "Diseño de Producto",
+        "Mobiliario Multifuncional",
+        "Diseño Mecánico Básico",
+        "Ergonomía",
+        "Optimización de Espacio",
+        "Innovación en Hogar",
+        "Experiencia de Usuario"
+      ]
     },
     {
-      "id": 6,
-      "title": "Thelios",
-      "category": "mobiliario",
-      "shortDescription": "Lámpara para home office diseñada bajo el estilo Natural House para mejorar la productividad y el bienestar en el espacio de trabajo.",
-      "fullDescription": "Theliner surge como respuesta a la creciente tendencia del trabajo en casa y los problemas de salud derivados de una mala iluminación. Este diseño busca crear un ambiente de trabajo cómodo, seguro y productivo, armonizando el espacio con la naturaleza. Basada en el estilo Natural House, utiliza materiales con un aspecto puro y colores tierra para ajustarse a la estética y necesidades del usuario.",
+      "id":7,
+      "title": "Rediseño Interior de Panadería Pan Artesanal Reggina",
+      "category": "interiorismo",
+      "shortDescription": "Proyecto de rediseño interior desarrollado para cliente real, enfocado en optimizar flujo de trabajo, experiencia de compra y organización operativa en una panadería artesanal.",
+      "fullDescription": "Proyecto de interiorismo comercial desarrollado para la panadería Pan Artesanal Reggina, ubicada en Plaza Bendetti en Monterrey, Nuevo León. El proyecto se realizó con cliente real, incluyendo entrevistas directas, levantamiento de medidas del local y análisis de necesidades operativas y comerciales. Participé en todas las fases del proceso de diseño: investigación del cliente y usuario, diagnóstico del estado actual del espacio, análisis de flujo en horas pico, desarrollo de programa de necesidades, conceptualización, estudio de forma y color, propuesta de distribución espacial, selección de mobiliario, especificación de materiales, iluminación y elaboración de planos arquitectónicos y visualizaciones finales. El objetivo principal fue mejorar la eficiencia del área de producción y venta, reubicar elementos clave como la plancha y almacenamiento, integrar un área para cursos y degustación, y optimizar la exhibición del pan para fortalecer la experiencia del cliente. Se propuso una reorganización estratégica del layout para separar claramente áreas de trabajo y venta sin perder conexión visual. La propuesta estética se fundamentó en transmitir calidez, tradición y conexión familiar, alineándose con la identidad espiritual y conservadora de la marca. Se utilizaron materiales como madera, melaminas en tonos nogal y moscato, acero inoxidable en área de cocina, iluminación cálida en zona de venta e iluminación más fría en área de trabajo para garantizar funcionalidad y confort visual. Desde el enfoque de diseño industrial, el proyecto integra análisis funcional, optimización de procesos, selección técnica de materiales, ergonomía en áreas de producción y diseño centrado en la experiencia del usuario. El resultado es un espacio más organizado, eficiente y coherente con la identidad de marca, mejorando tanto la operación interna como la percepción del cliente.",
       "images": [
-        "assets/images/TecnoLite/image-1.jpg",
-        "assets/images/TecnoLite/image-2.jpg",
-        "assets/images/TecnoLite/image-3.jpg"
+        "assets/images/panaderia/image-1.png",
+        "assets/images/panaderia/image-2.png",
+        "assets/images/panaderia/image-3.png",
+        "assets/images/panaderia/image-4.png",
+        "assets/images/panaderia/image-5.png"
+
+
       ],
-      "mainImage": "assets/images/TecnoLite/image-1.jpg",
+      "mainImage": "assets/images/panaderia/image-1.png",     
       "details": {
-        "cliente": "Pareja de recién casados",
-        "ubicacion": "Monterrey, México (UANL / FARQ)",
-        "dimensiones": "179 cm x 43 cm x 54 cm",
-        "materiales": "Acero al carbón cal. 16 y acrílico",
-        "componentes": "LED con interruptor táctil Schneider/Ticino"
+        "cliente": "Pan Artesanal Reggina",
+        "ubicacion": "Monterrey, Nuevo León, México",
+        "area": "Interiorismo comercial",
+        "año": "2024",
+        "duracion": "Proyecto académico con cliente real"
       },
-      "tags": ["Diseño Industrial", "Home Office", "Mobiliario", "Natural House", "Iluminación"]
-    },
-    {
-      "id": 7,
-      "title": "Mind Space",
-      "category": "mobiliario",
-      "shortDescription": "Áreas de colaboración con ambientes sensoriales diseñadas para fomentar la creatividad, el bienestar y la productividad en entornos laborales modernos.",
-      "fullDescription": "Mind Space es un sistema de mobiliario y diseño de espacios que busca transformar las oficinas tradicionales en entornos estimulantes. Basado en investigaciones que indican que la estimulación multisensorial puede incrementar la creatividad hasta en un 25%, el proyecto integra zonas de descanso y exploración creativa[cite: 101, 102]. La propuesta combina ergonomía, tecnología y estímulos sensoriales como plantas, sonidos ambientales y texturas naturales para reducir el estrés y ofrecer un refugio inspirador en la jornada diaria.",
-      "images": [
-        "assets/images/7-mindSpace/image-1.png",
-        "assets/images/7-mindSpace/image-2.png",
-        "assets/images/7-mindSpace/image-3.png",
-        "assets/images/7-mindSpace/image-4.png",
-        "assets/images/7-mindSpace/image-5.png"
-      ],
-      "mainImage": "assets/images/7-mindSpace/image-1.png",
-      "details": {
-        "cliente": "Empresas de innovación (Tecnología/Marketing)",
-        "ubicacion": "UANL / FARQ",
-        "materiales": "MDF con chapa de madera natural, aluminio/acero inoxidable y textiles reciclados",
-        "conceptos": "Diseño Multisensorial, Biofilia y Bienestar Laboral",
-        "componentes": "Módulos Lunaris, Modulux y Creativa"
-      },
-      "tags": ["Espacios Colaborativos", "Mobiliario de Oficina", "Diseño Sensorial", "Bienestar", "Innovación"]
+      "tags": [
+        "Interiorismo Comercial",
+        "Cliente Real",
+        "Rediseño de Espacios",
+        "Optimización de Flujo",
+        "Diseño Centrado en Usuario",
+        "Layout Comercial",
+        "Materiales y Especificaciones",
+        "Experiencia de Marca"
+      ]
     }
-  ]
-}
+    ]
+    }

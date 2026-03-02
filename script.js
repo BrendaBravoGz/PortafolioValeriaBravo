@@ -37,17 +37,17 @@ const Cursor = {
                 mouseY = e.clientY;
             });
             
-            // Animación suave del cursor
+            // Animación suave del cursor (mejorada)
             const animate = () => {
-                // Cursor principal
-                cursorX += (mouseX - cursorX) * 0.2;
-                cursorY += (mouseY - cursorY) * 0.2;
+                // Cursor principal - más responsivo
+                cursorX += (mouseX - cursorX) * 0.5;
+                cursorY += (mouseY - cursorY) * 0.5;
                 cursor.style.left = cursorX + 'px';
                 cursor.style.top = cursorY + 'px';
                 
-                // Cursor seguidor
-                followerX += (mouseX - followerX) * 0.1;
-                followerY += (mouseY - followerY) * 0.1;
+                // Cursor seguidor - menos retraso
+                followerX += (mouseX - followerX) * 0.3;
+                followerY += (mouseY - followerY) * 0.3;
                 cursorFollower.style.left = followerX + 'px';
                 cursorFollower.style.top = followerY + 'px';
                 
@@ -56,17 +56,48 @@ const Cursor = {
             animate();
             
             // Efectos hover
-            const hoverElements = document.querySelectorAll('a, button, .work-card, .service-card-brutal');
+            const hoverElements = document.querySelectorAll('a, button, .work-card, .service-card-brutal, .modal-close, .gallery-btn');
             hoverElements.forEach(el => {
-                el.addEventListener('mouseenter', () => {
-                    cursorFollower.classList.add('hover');
-                    cursor.style.transform = 'scale(1.5)';
-                });
-                el.addEventListener('mouseleave', () => {
-                    cursorFollower.classList.remove('hover');
-                    cursor.style.transform = 'scale(1)';
-                });
+                el.addEventListener('mouseenter', this.hoverEnter);
+                el.addEventListener('mouseleave', this.hoverLeave);
             });
+        }
+    },
+    
+    refreshHoverElements() {
+        // Limpiar listeners anteriores y agregar nuevos
+        const cursor = document.querySelector('.cursor');
+        const cursorFollower = document.querySelector('.cursor-follower');
+        
+        if (!cursor || !cursorFollower) return;
+        
+        const hoverElements = document.querySelectorAll('a, button, .work-card, .service-card-brutal, .modal-close, .gallery-btn');
+        hoverElements.forEach(el => {
+            // Remover listeners anteriores (si existen)
+            el.removeEventListener('mouseenter', this.hoverEnter);
+            el.removeEventListener('mouseleave', this.hoverLeave);
+            
+            // Agregar nuevos listeners
+            el.addEventListener('mouseenter', this.hoverEnter);
+            el.addEventListener('mouseleave', this.hoverLeave);
+        });
+    },
+    
+    hoverEnter() {
+        const cursor = document.querySelector('.cursor');
+        const cursorFollower = document.querySelector('.cursor-follower');
+        if (cursorFollower && cursor) {
+            cursorFollower.classList.add('hover');
+            cursor.style.transform = 'scale(1.5)';
+        }
+    },
+    
+    hoverLeave() {
+        const cursor = document.querySelector('.cursor');
+        const cursorFollower = document.querySelector('.cursor-follower');
+        if (cursorFollower && cursor) {
+            cursorFollower.classList.remove('hover');
+            cursor.style.transform = 'scale(1)';
         }
     }
 };
@@ -390,11 +421,21 @@ const Portfolio = {
         this.populateModal();
         this.modal.classList.add('show');
         document.body.style.overflow = 'hidden';
+        
+        // Refrescar event listeners del cursor para elementos del modal
+        setTimeout(() => {
+            Cursor.refreshHoverElements();
+        }, 300);
     },
     
     closeModal() {
         this.modal.classList.remove('show');
         document.body.style.overflow = 'auto';
+        
+        // Refrescar event listeners del cursor
+        setTimeout(() => {
+            Cursor.refreshHoverElements();
+        }, 100);
     },
     
     populateModal() {
